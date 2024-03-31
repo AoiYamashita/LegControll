@@ -1,0 +1,3 @@
+[console_scripts]
+serial = test_controll.serial:main
+
