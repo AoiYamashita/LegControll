@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             "serial = test_controll.serial:main",
+            "webSocket = test_controll.webSocket:main",
         ],
     },
 )

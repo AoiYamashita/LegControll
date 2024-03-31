@@ -15,3 +15,4 @@ test/test_flake8.py
 test/test_pep257.py
 test_controll/__init__.py
 test_controll/serial.py
+test_controll/webSocket.py

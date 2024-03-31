@@ -1,0 +1,33 @@
+[0.798s] Invoking command in '/home/yamashita/LegControll/src/monitor_node': PYTHONPATH=/home/yamashita/LegControll/build/monitor_node/prefix_override:/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitor_node build --build-base /home/yamashita/LegControll/build/monitor_node/build install --record /home/yamashita/LegControll/build/monitor_node/install.log --single-version-externally-managed
+[0.943s] running egg_info
+[0.943s] creating ../../build/monitor_node/monitor_node.egg-info
+[0.944s] writing ../../build/monitor_node/monitor_node.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../../build/monitor_node/monitor_node.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/monitor_node/monitor_node.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/monitor_node/monitor_node.egg-info/requires.txt
+[0.945s] writing top-level names to ../../build/monitor_node/monitor_node.egg-info/top_level.txt
+[0.945s] writing manifest file '../../build/monitor_node/monitor_node.egg-info/SOURCES.txt'
+[0.945s] reading manifest file '../../build/monitor_node/monitor_node.egg-info/SOURCES.txt'
+[0.945s] writing manifest file '../../build/monitor_node/monitor_node.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.946s] running build_py
+[0.946s] creating /home/yamashita/LegControll/build/monitor_node/build
+[0.946s] creating /home/yamashita/LegControll/build/monitor_node/build/lib
+[0.946s] creating /home/yamashita/LegControll/build/monitor_node/build/lib/monitor_node
+[0.946s] copying monitor_node/__init__.py -> /home/yamashita/LegControll/build/monitor_node/build/lib/monitor_node
+[0.946s] running install
+[0.946s] running install_lib
+[0.947s] creating /home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages/monitor_node
+[0.947s] copying /home/yamashita/LegControll/build/monitor_node/build/lib/monitor_node/__init__.py -> /home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages/monitor_node
+[0.948s] byte-compiling /home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages/monitor_node/__init__.py to __init__.cpython-310.pyc
+[0.948s] running install_data
+[0.951s] creating /home/yamashita/LegControll/install/monitor_node/share/ament_index
+[0.951s] creating /home/yamashita/LegControll/install/monitor_node/share/ament_index/resource_index
+[0.952s] creating /home/yamashita/LegControll/install/monitor_node/share/ament_index/resource_index/packages
+[0.952s] copying resource/monitor_node -> /home/yamashita/LegControll/install/monitor_node/share/ament_index/resource_index/packages
+[0.952s] copying package.xml -> /home/yamashita/LegControll/install/monitor_node/share/monitor_node
+[0.952s] running install_egg_info
+[0.952s] Copying ../../build/monitor_node/monitor_node.egg-info to /home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages/monitor_node-0.0.0-py3.10.egg-info
+[0.952s] running install_scripts
+[0.964s] writing list of installed files to '/home/yamashita/LegControll/build/monitor_node/install.log'
+[0.984s] Invoked command in '/home/yamashita/LegControll/src/monitor_node' returned '0': PYTHONPATH=/home/yamashita/LegControll/build/monitor_node/prefix_override:/home/yamashita/LegControll/install/monitor_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitor_node build --build-base /home/yamashita/LegControll/build/monitor_node/build install --record /home/yamashita/LegControll/build/monitor_node/install.log --single-version-externally-managed

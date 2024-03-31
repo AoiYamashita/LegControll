@@ -20,4 +20,10 @@ def generate_launch_description():
             executable = 'urg_node2.launch.py',
             output = 'screen',
             )
-    return launch.LaunchDescription([web,serial,lidar])
+    lidar_sub = launch_ros.actions.Node(
+            package = 'test_controll',
+            executable = 'webSocket',
+            parameters=[{'port': 9092}],
+            output = 'screen',
+            )
+    return launch.LaunchDescription([web,serial,lidar,lidar_sub])
