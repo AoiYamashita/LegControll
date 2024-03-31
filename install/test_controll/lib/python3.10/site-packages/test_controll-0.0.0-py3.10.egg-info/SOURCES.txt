@@ -8,6 +8,7 @@ setup.py
 ../../build/test_controll/test_controll.egg-info/requires.txt
 ../../build/test_controll/test_controll.egg-info/top_level.txt
 ../../build/test_controll/test_controll.egg-info/zip-safe
+launch/controll.launch.py
 resource/test_controll
 test/test_copyright.py
 test/test_flake8.py

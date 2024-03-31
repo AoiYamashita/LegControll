@@ -1,0 +1,31 @@
+[0.492s] Invoking command in '/home/yamashita/LegControll/build/test_controll': PYTHONPATH=/home/yamashita/LegControll/build/test_controll/prefix_override:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yamashita/LegControll/build/test_controll/build
+[0.648s] running develop
+[0.726s] Removing /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test-controll.egg-link (link to .)
+[0.747s] Invoked command in '/home/yamashita/LegControll/build/test_controll' returned '0': PYTHONPATH=/home/yamashita/LegControll/build/test_controll/prefix_override:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/yamashita/LegControll/build/test_controll/build
+[0.749s] Invoking command in '/home/yamashita/LegControll/src/test_controll': PYTHONPATH=/home/yamashita/LegControll/build/test_controll/prefix_override:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_controll build --build-base /home/yamashita/LegControll/build/test_controll/build install --record /home/yamashita/LegControll/build/test_controll/install.log --single-version-externally-managed
+[0.892s] running egg_info
+[0.893s] writing ../../build/test_controll/test_controll.egg-info/PKG-INFO
+[0.893s] writing dependency_links to ../../build/test_controll/test_controll.egg-info/dependency_links.txt
+[0.893s] writing entry points to ../../build/test_controll/test_controll.egg-info/entry_points.txt
+[0.894s] writing requirements to ../../build/test_controll/test_controll.egg-info/requires.txt
+[0.895s] writing top-level names to ../../build/test_controll/test_controll.egg-info/top_level.txt
+[0.895s] reading manifest file '../../build/test_controll/test_controll.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '../../build/test_controll/test_controll.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] copying test_controll/serial.py -> /home/yamashita/LegControll/build/test_controll/build/lib/test_controll
+[0.897s] running install
+[0.897s] running install_lib
+[0.897s] creating /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll
+[0.897s] copying /home/yamashita/LegControll/build/test_controll/build/lib/test_controll/serial.py -> /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll
+[0.897s] copying /home/yamashita/LegControll/build/test_controll/build/lib/test_controll/__init__.py -> /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll
+[0.898s] byte-compiling /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll/serial.py to serial.cpython-310.pyc
+[0.898s] byte-compiling /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll/__init__.py to __init__.cpython-310.pyc
+[0.898s] running install_data
+[0.899s] copying launch/controll.launch.py -> /home/yamashita/LegControll/install/test_controll/share/test_controll
+[0.899s] running install_egg_info
+[0.901s] Copying ../../build/test_controll/test_controll.egg-info to /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test_controll-0.0.0-py3.10.egg-info
+[0.901s] running install_scripts
+[0.915s] Installing serial script to /home/yamashita/LegControll/install/test_controll/lib/test_controll
+[0.915s] writing list of installed files to '/home/yamashita/LegControll/build/test_controll/install.log'
+[0.933s] Invoked command in '/home/yamashita/LegControll/src/test_controll' returned '0': PYTHONPATH=/home/yamashita/LegControll/build/test_controll/prefix_override:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_controll build --build-base /home/yamashita/LegControll/build/test_controll/build install --record /home/yamashita/LegControll/build/test_controll/install.log --single-version-externally-managed

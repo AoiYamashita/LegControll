@@ -1,0 +1,430 @@
+[0.000000] (-) TimerEvent: {}
+[0.000645] (test_controll) JobQueued: {'identifier': 'test_controll', 'dependencies': OrderedDict()}
+[0.001371] (urg_node2) JobQueued: {'identifier': 'urg_node2', 'dependencies': OrderedDict()}
+[0.001459] (test_controll) JobStarted: {'identifier': 'test_controll'}
+[0.051107] (urg_node2) JobStarted: {'identifier': 'urg_node2'}
+[0.099930] (-) TimerEvent: {}
+[0.202461] (-) TimerEvent: {}
+[0.302878] (-) TimerEvent: {}
+[0.305776] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'cmake'}
+[0.306110] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '/home/yamashita/LegControll/src/urg_node2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yamashita/LegControll/install/urg_node2'], 'cwd': '/home/yamashita/LegControll/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{9e506fbc-e506-4ef7-8cf0-21c4342dfc04}'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/LegControll/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/LegControll/install:/home/yamashita/auto_robot_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/11726_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'a0264cfb-17a6-4806-8156-a1f84e13d625'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/controll_robot:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/yamashita/LegControll/build/urg_node2'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.403008] (-) TimerEvent: {}
+[0.503322] (-) TimerEvent: {}
+[0.552326] (test_controll) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yamashita/LegControll/build/test_controll/build', '--no-deps', 'install_data'], 'cwd': '/home/yamashita/LegControll/build/test_controll', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yamashita', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yamashita/auto_robot_2024/install/mono_motor_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'WT_PROFILE_ID': '{9e506fbc-e506-4ef7-8cf0-21c4342dfc04}', 'HOME': '/home/yamashita', 'OLDPWD': '/home/yamashita/LegControll/src', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yamashita/LegControll/install:/home/yamashita/auto_robot_2024/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yamashita', 'NAME': '235t3260', 'WSL_INTEROP': '/run/WSL/11726_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin', 'WT_SESSION': 'a0264cfb-17a6-4806-8156-a1f84e13d625', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/controll_robot:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/yamashita/LegControll/build/test_controll', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yamashita/LegControll/build/test_controll/prefix_override:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.588489] (urg_node2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.603446] (-) TimerEvent: {}
+[0.703733] (-) TimerEvent: {}
+[0.729345] (test_controll) StdoutLine: {'line': b'running develop\n'}
+[0.803848] (-) TimerEvent: {}
+[0.819645] (test_controll) StdoutLine: {'line': b'running egg_info\n'}
+[0.819865] (test_controll) StdoutLine: {'line': b'writing test_controll.egg-info/PKG-INFO\n'}
+[0.819947] (test_controll) StdoutLine: {'line': b'writing dependency_links to test_controll.egg-info/dependency_links.txt\n'}
+[0.820219] (test_controll) StdoutLine: {'line': b'writing entry points to test_controll.egg-info/entry_points.txt\n'}
+[0.820414] (test_controll) StdoutLine: {'line': b'writing requirements to test_controll.egg-info/requires.txt\n'}
+[0.820629] (test_controll) StdoutLine: {'line': b'writing top-level names to test_controll.egg-info/top_level.txt\n'}
+[0.822761] (test_controll) StdoutLine: {'line': b"reading manifest file 'test_controll.egg-info/SOURCES.txt'\n"}
+[0.823457] (test_controll) StdoutLine: {'line': b"writing manifest file 'test_controll.egg-info/SOURCES.txt'\n"}
+[0.824157] (test_controll) StdoutLine: {'line': b'running build_ext\n'}
+[0.824431] (test_controll) StdoutLine: {'line': b'Creating /home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages/test-controll.egg-link (link to .)\n'}
+[0.824876] (test_controll) StdoutLine: {'line': b'Installing serial script to /home/yamashita/LegControll/install/test_controll/lib/test_controll\n'}
+[0.825123] (test_controll) StdoutLine: {'line': b'\n'}
+[0.825189] (test_controll) StdoutLine: {'line': b'Installed /home/yamashita/LegControll/build/test_controll\n'}
+[0.825227] (test_controll) StdoutLine: {'line': b'running install_data\n'}
+[0.850000] (test_controll) CommandEnded: {'returncode': 0}
+[0.892737] (test_controll) JobEnded: {'identifier': 'test_controll', 'rc': 0}
+[0.903994] (-) TimerEvent: {}
+[1.004445] (-) TimerEvent: {}
+[1.105054] (-) TimerEvent: {}
+[1.205705] (-) TimerEvent: {}
+[1.306330] (-) TimerEvent: {}
+[1.406954] (-) TimerEvent: {}
+[1.493118] (urg_node2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.507135] (-) TimerEvent: {}
+[1.607511] (-) TimerEvent: {}
+[1.708304] (-) TimerEvent: {}
+[1.809088] (-) TimerEvent: {}
+[1.909803] (-) TimerEvent: {}
+[2.010381] (-) TimerEvent: {}
+[2.110802] (-) TimerEvent: {}
+[2.193166] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.211019] (-) TimerEvent: {}
+[2.311713] (-) TimerEvent: {}
+[2.412451] (-) TimerEvent: {}
+[2.513180] (-) TimerEvent: {}
+[2.545462] (urg_node2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.553892] (urg_node2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.556642] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.558245] (urg_node2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.564080] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.613526] (-) TimerEvent: {}
+[2.714197] (-) TimerEvent: {}
+[2.814913] (-) TimerEvent: {}
+[2.897001] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.903132] (urg_node2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.903486] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.903983] (urg_node2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.915057] (-) TimerEvent: {}
+[2.920909] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.015311] (-) TimerEvent: {}
+[3.038713] (urg_node2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.094213] (urg_node2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.115438] (-) TimerEvent: {}
+[3.138079] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.215573] (-) TimerEvent: {}
+[3.276439] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.285164] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.303850] (urg_node2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.315812] (-) TimerEvent: {}
+[3.334008] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.367947] (urg_node2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.416233] (-) TimerEvent: {}
+[3.472962] (urg_node2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.477985] (urg_node2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.516474] (-) TimerEvent: {}
+[3.617278] (-) TimerEvent: {}
+[3.717900] (-) TimerEvent: {}
+[3.818258] (-) TimerEvent: {}
+[3.918651] (-) TimerEvent: {}
+[4.019264] (-) TimerEvent: {}
+[4.119656] (-) TimerEvent: {}
+[4.221011] (-) TimerEvent: {}
+[4.321546] (-) TimerEvent: {}
+[4.422463] (-) TimerEvent: {}
+[4.523120] (-) TimerEvent: {}
+[4.623600] (-) TimerEvent: {}
+[4.724031] (-) TimerEvent: {}
+[4.824536] (-) TimerEvent: {}
+[4.925302] (-) TimerEvent: {}
+[5.026416] (-) TimerEvent: {}
+[5.126901] (-) TimerEvent: {}
+[5.227565] (-) TimerEvent: {}
+[5.328396] (-) TimerEvent: {}
+[5.428990] (-) TimerEvent: {}
+[5.529865] (-) TimerEvent: {}
+[5.630711] (-) TimerEvent: {}
+[5.731365] (-) TimerEvent: {}
+[5.832542] (-) TimerEvent: {}
+[5.932910] (-) TimerEvent: {}
+[6.021047] (urg_node2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.033196] (-) TimerEvent: {}
+[6.133829] (-) TimerEvent: {}
+[6.234287] (-) TimerEvent: {}
+[6.334834] (-) TimerEvent: {}
+[6.435367] (-) TimerEvent: {}
+[6.535998] (-) TimerEvent: {}
+[6.636414] (-) TimerEvent: {}
+[6.736771] (-) TimerEvent: {}
+[6.837223] (-) TimerEvent: {}
+[6.937629] (-) TimerEvent: {}
+[7.038222] (-) TimerEvent: {}
+[7.138821] (-) TimerEvent: {}
+[7.239562] (-) TimerEvent: {}
+[7.340346] (-) TimerEvent: {}
+[7.440997] (-) TimerEvent: {}
+[7.541587] (-) TimerEvent: {}
+[7.642250] (-) TimerEvent: {}
+[7.742766] (-) TimerEvent: {}
+[7.843472] (-) TimerEvent: {}
+[7.944257] (-) TimerEvent: {}
+[8.044896] (-) TimerEvent: {}
+[8.145602] (-) TimerEvent: {}
+[8.246223] (-) TimerEvent: {}
+[8.346988] (-) TimerEvent: {}
+[8.447710] (-) TimerEvent: {}
+[8.548169] (-) TimerEvent: {}
+[8.648834] (-) TimerEvent: {}
+[8.749269] (-) TimerEvent: {}
+[8.849796] (-) TimerEvent: {}
+[8.950340] (-) TimerEvent: {}
+[9.005404] (urg_node2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.050604] (-) TimerEvent: {}
+[9.151321] (-) TimerEvent: {}
+[9.251820] (-) TimerEvent: {}
+[9.352493] (-) TimerEvent: {}
+[9.453338] (-) TimerEvent: {}
+[9.554025] (-) TimerEvent: {}
+[9.655062] (-) TimerEvent: {}
+[9.755718] (-) TimerEvent: {}
+[9.856209] (-) TimerEvent: {}
+[9.956667] (-) TimerEvent: {}
+[10.057458] (-) TimerEvent: {}
+[10.158188] (-) TimerEvent: {}
+[10.258899] (-) TimerEvent: {}
+[10.359489] (-) TimerEvent: {}
+[10.460038] (-) TimerEvent: {}
+[10.560700] (-) TimerEvent: {}
+[10.661484] (-) TimerEvent: {}
+[10.761977] (-) TimerEvent: {}
+[10.862377] (-) TimerEvent: {}
+[10.962906] (-) TimerEvent: {}
+[11.063478] (-) TimerEvent: {}
+[11.164103] (-) TimerEvent: {}
+[11.264822] (-) TimerEvent: {}
+[11.365289] (-) TimerEvent: {}
+[11.465777] (-) TimerEvent: {}
+[11.566522] (-) TimerEvent: {}
+[11.667207] (-) TimerEvent: {}
+[11.767929] (-) TimerEvent: {}
+[11.869381] (-) TimerEvent: {}
+[11.969912] (-) TimerEvent: {}
+[12.070363] (-) TimerEvent: {}
+[12.171401] (-) TimerEvent: {}
+[12.271897] (-) TimerEvent: {}
+[12.372388] (-) TimerEvent: {}
+[12.473239] (-) TimerEvent: {}
+[12.574071] (-) TimerEvent: {}
+[12.674638] (-) TimerEvent: {}
+[12.775443] (-) TimerEvent: {}
+[12.876683] (-) TimerEvent: {}
+[12.977088] (-) TimerEvent: {}
+[13.077601] (-) TimerEvent: {}
+[13.178179] (-) TimerEvent: {}
+[13.278733] (-) TimerEvent: {}
+[13.379203] (-) TimerEvent: {}
+[13.479821] (-) TimerEvent: {}
+[13.580538] (-) TimerEvent: {}
+[13.681149] (-) TimerEvent: {}
+[13.782455] (-) TimerEvent: {}
+[13.882947] (-) TimerEvent: {}
+[13.983457] (-) TimerEvent: {}
+[14.084038] (-) TimerEvent: {}
+[14.184614] (-) TimerEvent: {}
+[14.285209] (-) TimerEvent: {}
+[14.385880] (-) TimerEvent: {}
+[14.486552] (-) TimerEvent: {}
+[14.587211] (-) TimerEvent: {}
+[14.687929] (-) TimerEvent: {}
+[14.788649] (-) TimerEvent: {}
+[14.889493] (-) TimerEvent: {}
+[14.990405] (-) TimerEvent: {}
+[15.091435] (-) TimerEvent: {}
+[15.192174] (-) TimerEvent: {}
+[15.293448] (-) TimerEvent: {}
+[15.393987] (-) TimerEvent: {}
+[15.494472] (-) TimerEvent: {}
+[15.594964] (-) TimerEvent: {}
+[15.695514] (-) TimerEvent: {}
+[15.795994] (-) TimerEvent: {}
+[15.810732] (urg_node2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.843911] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.896325] (-) TimerEvent: {}
+[15.996702] (-) TimerEvent: {}
+[16.026631] (urg_node2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.027104] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.096943] (-) TimerEvent: {}
+[16.197531] (-) TimerEvent: {}
+[16.203761] (urg_node2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.204529] (urg_node2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.297693] (-) TimerEvent: {}
+[16.377636] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[16.397893] (-) TimerEvent: {}
+[16.451831] (urg_node2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[16.496087] (urg_node2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[16.498076] (-) TimerEvent: {}
+[16.598332] (-) TimerEvent: {}
+[16.604233] (urg_node2) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[16.664933] (urg_node2) StdoutLine: {'line': b'-- Found laser_proc: 1.0.2 (/opt/ros/humble/share/laser_proc/cmake)\n'}
+[16.681743] (urg_node2) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[16.687146] (urg_node2) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[16.698630] (-) TimerEvent: {}
+[16.744767] (urg_node2) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.770984] (urg_node2) StdoutLine: {'line': b'-- Generating done\n'}
+[16.772249] (urg_node2) StdoutLine: {'line': b'-- Build files have been written to: /home/yamashita/LegControll/build/urg_node2\n'}
+[16.781637] (urg_node2) CommandEnded: {'returncode': 0}
+[16.782364] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'build'}
+[16.782405] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamashita/LegControll/build/urg_node2', '--', '-j12', '-l12'], 'cwd': '/home/yamashita/LegControll/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{9e506fbc-e506-4ef7-8cf0-21c4342dfc04}'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/LegControll/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/LegControll/install:/home/yamashita/auto_robot_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/11726_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'a0264cfb-17a6-4806-8156-a1f84e13d625'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/controll_robot:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/yamashita/LegControll/build/urg_node2'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[16.798791] (-) TimerEvent: {}
+[16.814844] (urg_node2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[16.815559] (urg_node2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_node.dir/rclcpp_components/node_main_urg_node2_node.cpp.o\x1b[0m\n'}
+[16.815705] (urg_node2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[16.820879] (urg_node2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_sensor.c.o\x1b[0m\n'}
+[16.821153] (urg_node2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_connection.c.o\x1b[0m\n'}
+[16.821307] (urg_node2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_utils.c.o\x1b[0m\n'}
+[16.823525] (urg_node2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_debug.c.o\x1b[0m\n'}
+[16.823763] (urg_node2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial_utils.c.o\x1b[0m\n'}
+[16.823855] (urg_node2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_ring_buffer.c.o\x1b[0m\n'}
+[16.825530] (urg_node2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_tcpclient.c.o\x1b[0m\n'}
+[16.826578] (urg_node2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/urg_c.dir/urg_library/current/src/urg_serial.c.o\x1b[0m\n'}
+[16.873626] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/LegControll/src/urg_node2/urg_library/current/src/urg_sensor.c:1349:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on function return type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.873866] (urg_node2) StderrLine: {'line': b' 1349 | static \x1b[01;35m\x1b[Kconst\x1b[m\x1b[K int receive_II_command_response(urg_t *urg,\n'}
+[16.873917] (urg_node2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[16.876174] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/LegControll/src/urg_node2/urg_library/current/src/urg_utils.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kurg_delay\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.876366] (urg_node2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamashita/LegControll/src/urg_node2/urg_library/current/src/urg_utils.c:224:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kusleep\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kurg_sleep\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration\x07-Wimplicit-function-declaration\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.876449] (urg_node2) StderrLine: {'line': b'  224 |     \x1b[01;35m\x1b[Kusleep\x1b[m\x1b[K(1000 * delay_msec);\n'}
+[16.876518] (urg_node2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.876589] (urg_node2) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kurg_sleep\x1b[m\x1b[K\n'}
+[16.898979] (-) TimerEvent: {}
+[16.919879] (urg_node2) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library liburg_c.so\x1b[0m\n'}
+[16.999125] (-) TimerEvent: {}
+[17.023676] (urg_node2) StdoutLine: {'line': b'[ 60%] Built target urg_c\n'}
+[17.039085] (urg_node2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[17.099323] (-) TimerEvent: {}
+[17.199861] (-) TimerEvent: {}
+[17.300381] (-) TimerEvent: {}
+[17.400873] (-) TimerEvent: {}
+[17.501432] (-) TimerEvent: {}
+[17.594620] (urg_node2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[17.601617] (-) TimerEvent: {}
+[17.633912] (urg_node2) StdoutLine: {'line': b'[ 70%] Built target gtest_main\n'}
+[17.701901] (-) TimerEvent: {}
+[17.802483] (-) TimerEvent: {}
+[17.903026] (-) TimerEvent: {}
+[18.003817] (-) TimerEvent: {}
+[18.104296] (-) TimerEvent: {}
+[18.204679] (-) TimerEvent: {}
+[18.305159] (-) TimerEvent: {}
+[18.405725] (-) TimerEvent: {}
+[18.506291] (-) TimerEvent: {}
+[18.606829] (-) TimerEvent: {}
+[18.707261] (-) TimerEvent: {}
+[18.807694] (-) TimerEvent: {}
+[18.908247] (-) TimerEvent: {}
+[19.008664] (-) TimerEvent: {}
+[19.109074] (-) TimerEvent: {}
+[19.209520] (-) TimerEvent: {}
+[19.310031] (-) TimerEvent: {}
+[19.410577] (-) TimerEvent: {}
+[19.511015] (-) TimerEvent: {}
+[19.611428] (-) TimerEvent: {}
+[19.711824] (-) TimerEvent: {}
+[19.812356] (-) TimerEvent: {}
+[19.818360] (urg_node2) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[19.864739] (urg_node2) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[19.880411] (urg_node2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/src/urg_node2.cpp.o\x1b[0m\n'}
+[19.882240] (urg_node2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/urg_node2_test.dir/test/urg_node2_test.cpp.o\x1b[0m\n'}
+[19.912644] (-) TimerEvent: {}
+[20.013265] (-) TimerEvent: {}
+[20.113628] (-) TimerEvent: {}
+[20.214068] (-) TimerEvent: {}
+[20.239474] (urg_node2) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_node\x1b[0m\n'}
+[20.314228] (-) TimerEvent: {}
+[20.414621] (-) TimerEvent: {}
+[20.454636] (urg_node2) StdoutLine: {'line': b'[ 90%] Built target urg_node2_node\n'}
+[20.514797] (-) TimerEvent: {}
+[20.615202] (-) TimerEvent: {}
+[20.715783] (-) TimerEvent: {}
+[20.816254] (-) TimerEvent: {}
+[20.916673] (-) TimerEvent: {}
+[21.017212] (-) TimerEvent: {}
+[21.117681] (-) TimerEvent: {}
+[21.218134] (-) TimerEvent: {}
+[21.318657] (-) TimerEvent: {}
+[21.419163] (-) TimerEvent: {}
+[21.519747] (-) TimerEvent: {}
+[21.620140] (-) TimerEvent: {}
+[21.720540] (-) TimerEvent: {}
+[21.820984] (-) TimerEvent: {}
+[21.921439] (-) TimerEvent: {}
+[22.021829] (-) TimerEvent: {}
+[22.122284] (-) TimerEvent: {}
+[22.222727] (-) TimerEvent: {}
+[22.323185] (-) TimerEvent: {}
+[22.423625] (-) TimerEvent: {}
+[22.524048] (-) TimerEvent: {}
+[22.624488] (-) TimerEvent: {}
+[22.725100] (-) TimerEvent: {}
+[22.825514] (-) TimerEvent: {}
+[22.925961] (-) TimerEvent: {}
+[23.026372] (-) TimerEvent: {}
+[23.126874] (-) TimerEvent: {}
+[23.227278] (-) TimerEvent: {}
+[23.327732] (-) TimerEvent: {}
+[23.428315] (-) TimerEvent: {}
+[23.446815] (urg_node2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library liburg_node2.so\x1b[0m\n'}
+[23.528473] (-) TimerEvent: {}
+[23.628991] (-) TimerEvent: {}
+[23.729530] (-) TimerEvent: {}
+[23.811218] (urg_node2) StdoutLine: {'line': b'[ 95%] Built target urg_node2\n'}
+[23.829748] (-) TimerEvent: {}
+[23.930282] (-) TimerEvent: {}
+[24.030877] (-) TimerEvent: {}
+[24.131351] (-) TimerEvent: {}
+[24.231755] (-) TimerEvent: {}
+[24.332126] (-) TimerEvent: {}
+[24.432565] (-) TimerEvent: {}
+[24.533077] (-) TimerEvent: {}
+[24.633600] (-) TimerEvent: {}
+[24.734100] (-) TimerEvent: {}
+[24.834586] (-) TimerEvent: {}
+[24.935069] (-) TimerEvent: {}
+[25.035558] (-) TimerEvent: {}
+[25.136096] (-) TimerEvent: {}
+[25.236635] (-) TimerEvent: {}
+[25.337154] (-) TimerEvent: {}
+[25.437567] (-) TimerEvent: {}
+[25.537920] (-) TimerEvent: {}
+[25.638366] (-) TimerEvent: {}
+[25.738908] (-) TimerEvent: {}
+[25.839374] (-) TimerEvent: {}
+[25.939795] (-) TimerEvent: {}
+[26.040220] (-) TimerEvent: {}
+[26.140682] (-) TimerEvent: {}
+[26.241029] (-) TimerEvent: {}
+[26.341461] (-) TimerEvent: {}
+[26.441866] (-) TimerEvent: {}
+[26.542475] (-) TimerEvent: {}
+[26.642789] (-) TimerEvent: {}
+[26.743227] (-) TimerEvent: {}
+[26.843639] (-) TimerEvent: {}
+[26.944067] (-) TimerEvent: {}
+[27.044381] (-) TimerEvent: {}
+[27.144785] (-) TimerEvent: {}
+[27.245141] (-) TimerEvent: {}
+[27.345480] (-) TimerEvent: {}
+[27.445897] (-) TimerEvent: {}
+[27.546214] (-) TimerEvent: {}
+[27.646622] (-) TimerEvent: {}
+[27.746968] (-) TimerEvent: {}
+[27.847405] (-) TimerEvent: {}
+[27.947967] (-) TimerEvent: {}
+[28.048310] (-) TimerEvent: {}
+[28.148722] (-) TimerEvent: {}
+[28.249035] (-) TimerEvent: {}
+[28.349455] (-) TimerEvent: {}
+[28.449767] (-) TimerEvent: {}
+[28.550318] (-) TimerEvent: {}
+[28.650843] (-) TimerEvent: {}
+[28.751457] (-) TimerEvent: {}
+[28.839220] (urg_node2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable urg_node2_test\x1b[0m\n'}
+[28.851606] (-) TimerEvent: {}
+[28.952082] (-) TimerEvent: {}
+[29.052444] (-) TimerEvent: {}
+[29.152880] (-) TimerEvent: {}
+[29.253321] (-) TimerEvent: {}
+[29.353768] (-) TimerEvent: {}
+[29.376615] (urg_node2) StdoutLine: {'line': b'[100%] Built target urg_node2_test\n'}
+[29.385011] (urg_node2) CommandEnded: {'returncode': 0}
+[29.417657] (urg_node2) JobProgress: {'identifier': 'urg_node2', 'progress': 'install'}
+[29.423115] (urg_node2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yamashita/LegControll/build/urg_node2'], 'cwd': '/home/yamashita/LegControll/build/urg_node2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamashita'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{9e506fbc-e506-4ef7-8cf0-21c4342dfc04}'), ('HOME', '/home/yamashita'), ('OLDPWD', '/home/yamashita/LegControll/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yamashita/LegControll/install:/home/yamashita/auto_robot_2024/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yamashita'), ('NAME', '235t3260'), ('WSL_INTEROP', '/run/WSL/11726_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/yamashita/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/山下蒼生/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/山下蒼生/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/mnt/c/Users/山下蒼生/.dotnet/tools:/snap/bin'), ('WT_SESSION', 'a0264cfb-17a6-4806-8156-a1f84e13d625'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/controll_robot:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/yamashita/LegControll/build/urg_node2'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamashita/LegControll/install/test_controll/lib/python3.10/site-packages:/home/yamashita/auto_robot_2024/install/controll_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/yamashita/auto_robot_2024/install/mono_motor_plugin:/home/yamashita/auto_robot_2024/install/auto_robot_gazebo:/home/yamashita/LegControll/install/test_controll:/home/yamashita/auto_robot_2024/install/controll_robot:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[29.427544] (urg_node2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.427834] (urg_node2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.428275] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/lib/urg_node2/urg_node2_node\n'}
+[29.433601] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/lib/liburg_node2.so\n'}
+[29.438470] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/lib/liburg_c.so\n'}
+[29.443628] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/launch/urg_node2.launch.py\n'}
+[29.448266] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/launch/urg_node2_2lidar.launch.py\n'}
+[29.452807] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/launch/urg_node2_component.launch.py\n'}
+[29.454028] (-) TimerEvent: {}
+[29.458172] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/config/params_ether.yaml\n'}
+[29.464217] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/config/params_ether_2nd.yaml\n'}
+[29.468848] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/config/params_serial.yaml\n'}
+[29.473620] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/ament_index/resource_index/package_run_dependencies/urg_node2\n'}
+[29.478489] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/ament_index/resource_index/parent_prefix_path/urg_node2\n'}
+[29.483369] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/environment/ament_prefix_path.sh\n'}
+[29.487805] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/environment/ament_prefix_path.dsv\n'}
+[29.492378] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/environment/path.sh\n'}
+[29.496791] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/environment/path.dsv\n'}
+[29.500975] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/local_setup.bash\n'}
+[29.505329] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/local_setup.sh\n'}
+[29.509549] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/local_setup.zsh\n'}
+[29.514173] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/local_setup.dsv\n'}
+[29.518374] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/package.dsv\n'}
+[29.523364] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/ament_index/resource_index/packages/urg_node2\n'}
+[29.527756] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/ament_index/resource_index/rclcpp_components/urg_node2\n'}
+[29.532576] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/cmake/urg_node2Config.cmake\n'}
+[29.536582] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/cmake/urg_node2Config-version.cmake\n'}
+[29.540943] (urg_node2) StdoutLine: {'line': b'-- Symlinking: /home/yamashita/LegControll/install/urg_node2/share/urg_node2/package.xml\n'}
+[29.546946] (urg_node2) CommandEnded: {'returncode': 0}
+[29.554496] (-) TimerEvent: {}
+[29.646072] (urg_node2) JobEnded: {'identifier': 'urg_node2', 'rc': 0}
+[29.646588] (-) EventReactorShutdown: {}

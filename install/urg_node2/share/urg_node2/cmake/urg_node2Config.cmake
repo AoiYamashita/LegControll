@@ -1,0 +1,1 @@
+/home/yamashita/LegControll/build/urg_node2/ament_cmake_core/urg_node2Config.cmake
