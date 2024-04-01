@@ -14,8 +14,8 @@ class web_indep(Node):
     def __init__(self):
         super().__init__("scanner")
         self.subscription = self.create_subscription(LaserScan,"/scan",self.cb,10)
-        self.path = self.declare_parameter('host', "172.20.10.7")
-        self.band = self.declare_parameter('port', 9000)
+        self.path = self.declare_parameter('host', "172.18.139.75/")
+        self.band = self.declare_parameter('port', 9092)
         host = self.get_parameter("host").get_parameter_value().string_value
         port = self.get_parameter("port").get_parameter_value().integer_value
         if len(sys.argv) > 1:
