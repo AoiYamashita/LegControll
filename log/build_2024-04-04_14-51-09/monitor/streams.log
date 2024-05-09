@@ -1,0 +1,20 @@
+[1.146s] Invoking command in '/home/yamashita/LegControll/src/monitor': PYTHONPATH=/home/yamashita/LegControll/build/monitor/prefix_override:/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitor build --build-base /home/yamashita/LegControll/build/monitor/build install --record /home/yamashita/LegControll/build/monitor/install.log --single-version-externally-managed
+[1.300s] running egg_info
+[1.300s] writing ../../build/monitor/monitor.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/monitor/monitor.egg-info/requires.txt
+[1.302s] writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt
+[1.303s] reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[1.304s] writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[1.305s] running build
+[1.305s] running build_py
+[1.306s] running install
+[1.306s] running install_lib
+[1.309s] running install_data
+[1.309s] running install_egg_info
+[1.311s] removing '/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages/monitor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/monitor/monitor.egg-info to /home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages/monitor-0.0.0-py3.10.egg-info
+[1.312s] running install_scripts
+[1.325s] writing list of installed files to '/home/yamashita/LegControll/build/monitor/install.log'
+[1.347s] Invoked command in '/home/yamashita/LegControll/src/monitor' returned '0': PYTHONPATH=/home/yamashita/LegControll/build/monitor/prefix_override:/home/yamashita/LegControll/install/monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/monitor build --build-base /home/yamashita/LegControll/build/monitor/build install --record /home/yamashita/LegControll/build/monitor/install.log --single-version-externally-managed
